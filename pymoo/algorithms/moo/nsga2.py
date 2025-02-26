@@ -4,6 +4,7 @@ import warnings
 from pymoo.algorithms.base.genetic import GeneticAlgorithm
 from pymoo.docs import parse_doc_string
 from pymoo.operators.crossover.sbx import SBX
+from pymoo.operators.crossover.sbx_drone import SBX_drone
 from pymoo.operators.mutation.pm import PM
 from pymoo.operators.survival.rank_and_crowding import RankAndCrowding
 from pymoo.operators.sampling.rnd import FloatRandomSampling
